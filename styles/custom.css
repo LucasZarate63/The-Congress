@@ -1,0 +1,48 @@
+body{
+    min-height: 100vh;
+    background-color: rgb(250, 210, 179);
+}
+
+header{
+    height: 20%;
+    background-color: rgba(35,31,30);
+
+}
+
+footer{
+    height: 29%;
+    background-color: rgba(35,31,30);
+}
+
+footer p{
+    margin: 0;
+}
+
+.accordion-item{
+    background-color: rgb(250, 210, 179);
+}
+
+.accordion-button{
+    background-color: rgb(250, 210, 179);
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+    background-color: rgb(250, 210, 179);
+    color: black;
+}
+
+.accordion-button:enabled{
+    box-shadow: none;
+    background-color: rgb(250, 210, 179);
+    color: black;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    transform: rotate(-180deg);
+}
+
+#pPartyLoyal{
+    font-size: 1.3rem;
+}
